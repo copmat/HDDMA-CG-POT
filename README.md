@@ -1,12 +1,12 @@
 # HDDMA-CG-POT
 The coarse grained force field developed for the HDDMA radical polymerization
 
-In this repository, we report the coarse grained force fields described in the article entitled:
-"Simulating Polymerisation by Boltzmann Inversion Force Field Approach and Dynamical Non-equilibrium Reactive Molecular Dynamics."
-Authors:
-Michele Monteferrante, Sauro Succi, Dario Pisignano, and Marco Lauricella
-corresponding author: Marco Lauricella - lauricella.marco@gmail.com
-
+In this repository, we report the coarse grained force fields described in the article entitled:    
+"Simulating Polymerisation by Boltzmann Inversion Force Field Approach and Dynamical Non-equilibrium Reactive Molecular Dynamics."     
+Authors:     
+Michele Monteferrante, Sauro Succi, Dario Pisignano, and Marco Lauricella     
+corresponding author: Marco Lauricella - lauricella.marco@gmail.com      
+      
 In the following atom list A label stands for the lateral part of the HDDMA molecule 
 from the methylidene group up to the oxygen of the ether group for a total of 85 Dalton.
 In the following atom list B label stands for the central part of the HDDMA molecule 
