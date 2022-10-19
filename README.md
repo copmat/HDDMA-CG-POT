@@ -10,18 +10,18 @@ corresponding author: Marco Lauricella - lauricella.marco@gmail.com
 In the following atom list A label stands for the lateral part of the HDDMA molecule 
 from the methylidene group up to the oxygen of the ether group for a total of 85 Dalton.
 In the following atom list B label stands for the central part of the HDDMA molecule 
-containing six methylene groups for a total of 84 Dalton.
-Atom list:
-The atom 1 stands for the coarsed atom labelled A.
-The atom 2 stands for the coarsed atom labelled B.
-The atom 3 stands for the radical state of the coarsed atom labelled A.
-The atom 4 stands for the coarsed atom labelled A after the radical addition.
-The atom 5 stands for the coarsed atom labelled A after the termination reaction.
+containing six methylene groups for a total of 84 Dalton.     
+Atom list:       
+The atom 1 stands for the coarsed atom labelled A.    
+The atom 2 stands for the coarsed atom labelled B.     
+The atom 3 stands for the radical state of the coarsed atom labelled A.      
+The atom 4 stands for the coarsed atom labelled A after the radical addition.       
+The atom 5 stands for the coarsed atom labelled A after the termination reaction.       
 
-The files could be used within the LAMMPS code by setting in the input file the commands
+The files could be used within the LAMMPS code by setting in the input file the commands    
 
-The non-bonded interactions:
-pair_style table spline 1000 
+The non-bonded interactions:     
+pair_style table spline 1000       
 pair_coeff 1 2 Bond-2.pot.fit Bond-2.new.fit 25.0   
 pair_coeff 1 1 Bond-3.pot.fit Bond-3.new.fit 25.0    
 pair_coeff 2 2 Bond-4.pot.fit Bond-4.new.fit 25.0   
