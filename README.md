@@ -22,35 +22,35 @@ The files could be used within the LAMMPS code by setting in the input file the 
 
 The non-bonded interactions:
 pair_style table spline 1000 
-pair_coeff 1 2 Bond-2.pot.fit Bond-2.new.fit 25.0
-pair_coeff 1 1 Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 2 2 Bond-4.pot.fit Bond-4.new.fit 25.0
+pair_coeff 1 2 Bond-2.pot.fit Bond-2.new.fit 25.0   
+pair_coeff 1 1 Bond-3.pot.fit Bond-3.new.fit 25.0    
+pair_coeff 2 2 Bond-4.pot.fit Bond-4.new.fit 25.0   
 
-pair_coeff 2 3 Bond-2.pot.fit Bond-2.new.fit 25.0
-pair_coeff 3 3 Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 1 3 Bond-3.pot.fit Bond-3.new.fit 25.0
+pair_coeff 2 3 Bond-2.pot.fit Bond-2.new.fit 25.0   
+pair_coeff 3 3 Bond-3.pot.fit Bond-3.new.fit 25.0   
+pair_coeff 1 3 Bond-3.pot.fit Bond-3.new.fit 25.0   
 
-pair_coeff 1 4 Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 2 4 Bond-2.pot.fit Bond-2.new.fit 25.0
-pair_coeff 3 4 Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 4 4 Bond-3.pot.fit Bond-3.new.fit 25.0
+pair_coeff 1 4 Bond-3.pot.fit Bond-3.new.fit 25.0   
+pair_coeff 2 4 Bond-2.pot.fit Bond-2.new.fit 25.0   
+pair_coeff 3 4 Bond-3.pot.fit Bond-3.new.fit 25.0   
+pair_coeff 4 4 Bond-3.pot.fit Bond-3.new.fit 25.0   
 
-pair_coeff 1 5  Bond-3.pot.fit Bond-3.new.fit 25.0 
-pair_coeff 2 5  Bond-2.pot.fit Bond-2.new.fit 25.0
-pair_coeff 3 5  Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 4 5  Bond-3.pot.fit Bond-3.new.fit 25.0
-pair_coeff 5 5  Bond-3.pot.fit Bond-3.new.fit 25.0
+pair_coeff 1 5  Bond-3.pot.fit Bond-3.new.fit 25.0    
+pair_coeff 2 5  Bond-2.pot.fit Bond-2.new.fit 25.0   
+pair_coeff 3 5  Bond-3.pot.fit Bond-3.new.fit 25.0   
+pair_coeff 4 5  Bond-3.pot.fit Bond-3.new.fit 25.0   
+pair_coeff 5 5  Bond-3.pot.fit Bond-3.new.fit 25.0   
 
-The bonded interactions:
-bond_style hybrid harmonic table spline 400
-bond_coeff 1 table Bond-1.pot.fit Bond-1.new.fit 
-bond_coeff 2 table Bond-5.pot.fit Bond-1-reacted.hist.fit
-bond_coeff 3 table Bond-6.pot.fit Bond-1-reacted.hist.fit
-bond_coeff 4 table Bond-7.pot.fit Bond-1-reacted.hist.fit 
+The bonded interactions:   
+bond_style hybrid harmonic table spline 400    
+bond_coeff 1 table Bond-1.pot.fit Bond-1.new.fit     
+bond_coeff 2 table Bond-5.pot.fit Bond-1-reacted.hist.fit   
+bond_coeff 3 table Bond-6.pot.fit Bond-1-reacted.hist.fit     
+bond_coeff 4 table Bond-7.pot.fit Bond-1-reacted.hist.fit     
 
-angle_style table spline 400 
-angle_coeff 1 Ang-1.pot.fit Ang-1.new.fit
-angle_coeff 2 Ang-2.pot.fit Ang-2-reacted.hist.fit
+angle_style table spline 400     
+angle_coeff 1 Ang-1.pot.fit Ang-1.new.fit   
+angle_coeff 2 Ang-2.pot.fit Ang-2-reacted.hist.fit   
 
 
 
